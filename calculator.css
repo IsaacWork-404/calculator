@@ -63,7 +63,3 @@ main {
 .buttons button:hover {
   transform: scale(1.05);
 }
-
-.operator {
-  color: rgb(110, 10, 60);
-}
