@@ -34,7 +34,7 @@ const allBtns = document.querySelectorAll('.buttons button');
 allBtns.forEach(function (btn) {
   btn.addEventListener('click', function () {
     if(btn.classList.contains('operator')){
-      first = Number(txtField.value.split(btn.textContent[0]))
+      first = Number(txtField.value.split(btn.textContent)[0])
       operation = btn.textContent
       txtField.value += operation
     } else if(btn.classList.contains('key')){
