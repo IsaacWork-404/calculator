@@ -131,7 +131,7 @@ allBtns.forEach(function (btn) {
 
         txtField.value = txtField.value.slice(0, -1);
 
-        // If we removed the operator, forget it
+        // If  removed the operator, forget it
         if (!/[+\-x÷]/.test(txtField.value)) {
           operation = undefined;
         }
